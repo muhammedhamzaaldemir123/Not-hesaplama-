@@ -1,0 +1,53 @@
+NOT HESAPALAMA
+#include<stdio.h>
+#include<stdlib.h>
+int main () {
+	
+	int vizeNotu,finalNotu;
+	float ort;
+	printf("1.vize notunu girin:");
+	scanf("%d",&vizeNotu);
+	
+	printf("2.final notunu girin:");
+	scanf("%d",&finalNotu);
+	
+
+
+	ort=vizeNotu*0.2 + finalNotu*0.8;
+	printf("not ortalamasi: %f\n" ,ort);
+	
+	if (ort < 50)
+	{
+		printf("kaldiniz");
+	}
+	else if (ort < 65)
+	{
+		printf("Duz gectiniz");
+	}
+	else if (ort < 85)
+	{
+		printf("Tesekkurle gectiniz");
+	}
+	else{
+		printf("Taktirle gectiniz\nonur belgesi aldiniz");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
+
